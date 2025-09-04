@@ -48,11 +48,11 @@
 
     <main>
         <section class="flex flex-col-reverse md:flex-row justify-between items-center gap-10 py-5 w-11/12 mx-auto">
-            <div class="content flex-1  text-center md:text-left flex flex-col items-start">
+            <div class="flex items-start flex-col">
                 <h1 class="text-3xl font-semibold mb-8"><span class="text-[#42A5F5]">English</span> is Easy!!</h1>
                 <p class="font-bangla">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
-                <input type="text" placeholder="Write your name" class="input input-ghost mt-5" />
-                <input type="password" placeholder="............" class="input input-ghost mt-2" />
+                <input type="text" placeholder="Write your name" class="input input-ghost mt-5 bg-gray-200" />
+                <input type="password" placeholder="••••••••••••••" class="input input-ghost mt-2 bg-gray-200" />
                 <button class="btn btn-primary mt-5">Get Started</button>
 
             </div>
@@ -60,10 +60,21 @@
                 <img src="assets/hero-student.png" alt="">
             </div>
         </section>
+
+        <section class="mt-10">
+           <div class="content flex-1  text-center flex flex-col">
+            <h1 class="text-3xl font-semibold mb-8 text-center"><span class="text-[#42A5F5]">Let's</span> Learn Vocabulary</h1>
+           </div>
+
+           <div id="level-container" class="flex gap-4 items-center justify-center flex-wrap">
+
+           </div>
+        </section>
     </main>
 
     <footer>
 
     </footer>
+    <script src="js/lesson.js"></script>
 </body>
 </html>
